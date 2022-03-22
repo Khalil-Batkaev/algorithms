@@ -14,7 +14,6 @@ print(array)
 max_number, min_number = 0, 100
 max_id, min_id = -1, -1
 sum_number = 0
-total = 0
 
 for i, num in enumerate(array):
     # Решил использовать для расчёта первое вхождение в массив минимального и максимального элементов
