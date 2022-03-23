@@ -9,7 +9,7 @@ print(array)
 # Определить, какое число в массиве встречается чаще всего
 
 result_dict = {}
-max_number = -2**31 - 1
+max_number = float('-inf')
 max_value = 0
 
 for num in array:
