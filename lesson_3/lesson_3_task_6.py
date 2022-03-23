@@ -11,7 +11,7 @@ print(array)
 Сами минимальный и максимальный элементы в сумму не включать
 """
 
-max_number, min_number = 0, 100
+max_number, min_number = -2 ** 31 - 1, 2 ** 31 - 1
 max_id, min_id = -1, -1
 sum_number = 0
 
